@@ -7,11 +7,11 @@ body {
   @include bodyStyle();
 }
 
-.blue {
+#blue {
   color: $color;
 }
 
-.red {
+#red {
   @import "./color";
   color: $color;
 }
