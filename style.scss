@@ -9,13 +9,12 @@ $padding: 16px;
 
 #blue {
   @import bodyStyle;
- color: colorChange(#2748b3);
+ color: #2748b3;
 }
 
 #red {
   @import bodyStyle;
-  @import 'color';
- color: colorChange(red);
+ color: red;
 }
 
 article {
