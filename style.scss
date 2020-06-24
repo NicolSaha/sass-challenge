@@ -7,14 +7,17 @@
 $padding: 16px;
 
 
+
 #blue {
   @import bodyStyle;
  color: #2748b3;
+ $id: blue;
 }
 
 #red {
   @import bodyStyle;
  color: red;
+ $id: red;
 }
 
 article {
