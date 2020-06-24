@@ -1,17 +1,17 @@
 /*Variables*/
 $padding: 16px;
-$color: #2748b3;
 
 /*General*/
 body {
   @include bodyStyle();
 }
 
-#blue {
+.blue {
+  $color: #2748b3;
   color: $color;
 }
 
-#red {
+.red {
   @import "./color";
   color: $color;
 }
