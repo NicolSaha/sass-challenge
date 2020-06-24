@@ -9,11 +9,11 @@ body {
   background-attachment: fixed;
 }
 
-#blue {
+.blue {
   color: #2748b3;
 }
 
-#red {
+.red {
   color: red;
 }
 
@@ -110,5 +110,10 @@ h6 {
 
 .warning {
   background-color: orange;
+}
+
+.footer {
+  display: block;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -34,11 +34,11 @@ body {
   @include bodyStyle();
 }
 
-#blue {
+.blue {
   color: $color;
 }
 
-#red {
+.red {
   @import "./color";
   color: $color;
 }
@@ -128,4 +128,9 @@ h6 {
 .warning {
   @extend .message;
   background-color: orange;
+}
+
+.footer {
+  display: block;
+  text-align: center;
 }
