@@ -1,0 +1,15 @@
+$textColour: #2748b3;
+
+colourChange () {
+
+$textColour: true !default;
+
+@if $textColour == true {
+ color: #2748b3;
+}
+
+@else if $textColour == false {
+     color: red;
+ }
+
+}
